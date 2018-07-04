@@ -2,7 +2,7 @@
 
 ## 6/4/2018
 
-### debugES6 project in VSCODe
+### debugES6 project in VScode
 Followed the instructions at [debugging-es6-in-visual-studio-code](https://medium.com/@drcallaway/debugging-es6-in-visual-studio-code-4444db797954)
 
 ## Purpose
@@ -243,13 +243,27 @@ Worked extensively to transport and update markdown code from my codepen to vsco
 ## 6/28/2018
 Started day working on learning how to use slider in react-material components (for markdown-pwa.)  
 Decided that it was time to really learn REDUX.
-Worked on Redux creator **Dan Abrahams** [Getting started with Redux](https://egghead.io/courses/getting-started-with-redux)
+Worked on Redux creator **Dan Abramov** [Getting started with Redux](https://egghead.io/courses/getting-started-with-redux)
 video lessons.  
 
 Started redux-lessons project folder to go through examples.  Work was slow because he was in JS-bin and I was working in VS-Code.  This required I use a server so I used create-react-app to scaffold a my-app project inside the redux-lessons.
   
 It was also a bit dated: a bunch of test-driven examples using 'expect' library (out of date, Abramov gave the code to jest!)
 
+## 6/29/2018
+Worked through Dan Abramov Redux lessons...
+
+## 7/3/2018
+Finished final Redux Lesson and documented my code (redux-lessons.)
+Looked through other recommeded resources:  
+* [devguides](http://devguides.io/redux/react) - great guide with minimalized explanations.
+
+Decided that to cement my knowledge I must apply redux to a real react project...
+
+### markdown-pwa
+* Refactored code to separate version with collapsable.
+* Removed material UI components and made simpler header.
+* Created hideable element to replace collapsable.
 
 
 	
