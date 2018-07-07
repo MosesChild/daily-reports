@@ -265,5 +265,54 @@ Decided that to cement my knowledge I must apply redux to a real react project..
 * Removed material UI components and made simpler header.
 * Created hideable element to replace collapsable.
 
+## 7/4/2018
+Decided to start a new app to practice REDUX/React.  
+Tried to use **create-react-app** but had several fails.  
+Finally removed **yarn** from my PATH.
+removed user path:
+c:\Users\Gideon\AppData\Local\Yarn\bin
+
+removed system path:
+C:\Program Files (x86)\Yarn\bin\
+
+Not sure which one was the problem... but this did enable successful install.
+
+So I retried create-react-app in the original VS-Code Projects/noteApp directory with yarn directory back in User Path (restarted vs-code). 
+* create-react-app worked!
+* yarn --version still reports not installed.
+yarn
+
+retried create-react-app with yarn directory back in system path (restarted vs-code).
+* create-react-app failed!
+* yarn --version reports 1.5.1
+
+I was about to file an issue with create-react-app, but in the default text instructions of the issue I found it is **not a problem with yarn**... instead it is **user-error**
+I was supposed to install with yarn.
+
+I did an upgrade of yarn (from powershell)
+```bash
+choco upgrade yarn
+```
+and then instead of running npx create-react-app I went to the directory VS-Code Projects\todo-app
+and 
+```
+yarn create-react my-app
+
+
+## 7/5/2018	
+Worked on todo-app, practicing create-react-app developing and react-redux patterns...
+Split up Components into their own files.
+Created a simple version (without react-redux Provider)
+Started working on Provider versions.
+
+## 7/6/2018
+Worked on todo-app
+Made provider versions using (react-redux connect) and react.
+practiced various connect patterns to isolate component actions to redux store.  
+
+Worked on markup-pwa
+* Started working with jest testing to test reducers.
+
+
 
 	
